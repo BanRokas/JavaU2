@@ -35,7 +35,7 @@ ol {
   list-style-type: none;
 }
 
-li::before {
+.styleThis li::before {
   color: black;
   content: counters(item, ".") " ";
   counter-increment: item;
@@ -69,4 +69,13 @@ li::before {
       red 66%,
       red 99%
   );
+}
+
+.imgIrList{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+  flex-direction: column-reverse;
 }
