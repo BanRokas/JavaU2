@@ -1,0 +1,82 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+:root {
+  --ikonosAukstis: 20px;
+}
+
+h2:hover {
+  background-color: orange;
+  color: darkred;
+  text-align: center;
+}
+
+.sec1 {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+.sec1 img {
+  height: calc(100% - var(--ikonosAukstis));
+}
+
+.sec2 {
+  background-color: green;
+  color: white;
+  text-align: center;
+  margin: 0;
+  line-height: 50px;
+}
+
+.sec2 a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.sec2 a:visited {
+  color: blue;
+}
+
+.sec2 a:active {
+  color: red;
+}
+
+.sec2 a:hover {
+  color: yellow;
+}
+
+.sec3 img {
+  width: 100%;
+}
+
+.sec3>div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.greenBG {
+  background-color: green;
+}
+
+.sec3 {
+  background-color: grey;
+}
+
+.sec3 p {
+  margin-bottom: 0;
+}
+
+.sec4 {
+  background-color: greenyellow;
+}
+
+.sec4>div {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.sec4 h2 {
+  margin: 0;
+}
