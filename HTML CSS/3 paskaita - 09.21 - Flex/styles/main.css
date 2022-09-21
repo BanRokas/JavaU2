@@ -21,3 +21,17 @@
   margin: 0 1px 2px - 0 viršus; 1px kairė+dešinė; 2px apačia
   margin: 0 1px 2px 3px - 0viršus; 1px dešinė; 2px apačia; 3px kairė
 */
+
+.list li{
+  color: rgb(39, 161, 161);
+}
+h1, h2{
+  color: red;
+  font-family: 'Courier New', Courier, monospace
+}
+h1{
+  background-color: rgb(185, 222, 255);
+}
+h2{
+  background-color: aquamarine;
+}
