@@ -1,0 +1,23 @@
+.modelBoxPar1{
+  background-color: aqua;
+  padding-left: 30px;
+  margin-left: 50px;
+}
+.modelBoxKvadratas{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 5px dashed orange;
+  /* border-top: 5px dashed orange;
+  border-bottom: 5px dashed orange; */
+  border-left-color: black;
+  padding: 10px;
+  margin: 30px;
+}
+
+/*
+  margin: 0 - 0 viršus+dešinė+apačia+kairė
+  margin: 0 auto - 0 viršus+apačia, auto dešinė+kairė 
+  margin: 0 1px 2px - 0 viršus; 1px kairė+dešinė; 2px apačia
+  margin: 0 1px 2px 3px - 0viršus; 1px dešinė; 2px apačia; 3px kairė
+*/
