@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
 .centerText{
+  font-family: "Ms Madi";
+  font-size: 50px;
   text-align: center;
 }
 
