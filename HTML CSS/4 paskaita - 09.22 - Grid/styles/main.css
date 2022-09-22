@@ -79,3 +79,14 @@
 .devintas9{
   grid-area: 4 / 3 / 6 / 5;
 }
+
+.permatomasFonas{
+  position: absolute;
+  bottom: -300px;
+  left: 100px;
+  height: 200px;
+  width: 200px;
+  background-color: #B4F3F8c5;
+  background-color: rgba(166, 219, 223, 0.773);
+  opacity: 1;
+}
