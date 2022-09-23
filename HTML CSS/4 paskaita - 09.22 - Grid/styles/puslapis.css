@@ -1,12 +1,22 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
 header{
   background-color: antiquewhite;
   height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  /* width: 100%; */
+  top: 0;
+  z-index: 10;
+  /* right: 0;
+  left: 0; */
 }
 
 .logo{
@@ -33,4 +43,27 @@ header{
 }
 .mainMenu a{
   text-decoration: none;
+}
+
+/* main */
+main > section{
+  padding-top: 50px;
+  height: 60vh;
+  background-color: rgb(243, 243, 121);
+}
+main > section > h1{
+  margin: 0;
+  text-align: center;
+}
+main > section:nth-child(2n){
+  background-color: rgb(139, 243, 172);
+}
+
+
+
+
+/* footer */
+footer{
+  height: 50px;
+  background-color: antiquewhite;
 }
