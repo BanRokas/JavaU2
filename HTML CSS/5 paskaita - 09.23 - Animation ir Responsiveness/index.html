@@ -10,34 +10,49 @@
 </head>
 <body>
   <section>
-    <h1>Transform</h1>
-    <ul>
-      <li>translate(x,y) - Nurodo elemento pasistūmimą.</li>
-      <li>scale(x,y) - Nurodo elemento dydžio kitimą.</li>
-      <li>rotate(z) / rotateX(x) / rotateY(y) - Sukimasis aplink ašį.</li>
-    </ul>
-    <h1>Animation</h1>
-    <ul>
-      <li>animation-name - animacijos vardas</li>
-      <li>animation-duration - animacijos trukmė</li>
-      <li>animation-iteration-count - animacijos iteracijų kiekis</li>
-      <li>animation-delay - animacijos uždelsimas</li>
-      <li>animation-play-state - animacijos būsena (vykdoma ar ne)</li>
-      <li>animation-direction - animacijos kryptis</li>
-      <li>animation-timing-function - kaip skirstyti animacijai skirtą laiką</li>
-      <li>animation-fill-mode - ką daryti pasibaigus animavimui (retai naudojamas)</li>
-      <li>animation - apjungia visus stilius į vieną</li>
-    </ul>
-    <h1>@keyframes</h1>
-    <p>
-      Keyframe suteikiame norimos animuoti animacijos pavadinimą (@keyframes animationName). Ir žemiau nurodome animacijos žingsnius, kuriuose nurodome animuojamo elemento kitimą.
-    </p>
+    <div class="flex">
+      <div class="transformContainer">
+        <h1>Transform</h1>
+        <ul>
+          <li>translate(x,y) - Nurodo elemento pasistūmimą.</li>
+          <li>scale(x,y) - Nurodo elemento dydžio kitimą.</li>
+          <li>rotate(z) / rotateX(x) / rotateY(y) - Sukimasis aplink ašį.</li>
+        </ul>
+      </div>
+      <div class="animationContainer">
+        <h1>Animation</h1>
+        <ul>
+          <li>animation-name - animacijos vardas</li>
+          <li>animation-duration - animacijos trukmė</li>
+          <li>animation-iteration-count - animacijos iteracijų kiekis</li>
+          <li>animation-delay - animacijos uždelsimas</li>
+          <li>animation-play-state - animacijos būsena (vykdoma ar ne)</li>
+          <li>animation-direction - animacijos kryptis</li>
+          <li>animation-timing-function - kaip skirstyti animacijai skirtą laiką</li>
+          <li>animation-fill-mode - ką daryti pasibaigus animavimui (retai naudojamas)</li>
+          <li>animation - apjungia visus stilius į vieną</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h1>@keyframes</h1>
+      <p>
+        Keyframe suteikiame norimos animuoti animacijos pavadinimą (@keyframes animationName). Ir žemiau nurodome animacijos žingsnius, kuriuose nurodome animuojamo elemento kitimą.
+      </p>
+    </div>
   </section>
   <section>
     <div class="animacijosLaukas">
       <button onclick="stopOrRunAnimation(event)">Stop Animation</button>
       <div class="kvadratas animacija1">Labas</div>
+      <div class="kvadratas animacija2">Ate</div>
     </div>
+  </section>
+  <section>
+    <h1>Responsiveness</h1>
+    <p>
+      CSS rašome @media (min/max-width:numberPX) ir šito aprašymo viduje nustatome kažkokius stilius, kurie bus taikomi atitinkamame ekrano dydyje.
+    </p>
   </section>
   <section style="height:50vh"></section>
 </body>
