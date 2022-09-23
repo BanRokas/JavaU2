@@ -1,0 +1,56 @@
+.animacijosLaukas{
+  margin: 0 auto;
+  width: 90%;
+  height: 600px;
+  background-color: antiquewhite;
+  position: relative;
+}
+
+.kvadratas{
+  height: 100px;
+  width: 100px;
+  border: 5px dashed orange;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.animacijosLaukas > button{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.animacija1{
+  animation-name: pirmaAnimacija;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 0;
+  animation-play-state: running;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-fill-mode: none;
+}
+.animacija1:hover{
+  animation-play-state: paused;
+}
+
+@keyframes pirmaAnimacija{
+  0%{
+    transform: translate(30px, 20px);
+  }
+  30%{
+    transform: translate(300px, 150px) rotate(180deg);
+    border-radius: 0;
+    background-color: brown;
+    color: lightgreen;
+  }
+  100%{
+    transform: translate(100px, 400px) rotate(180deg);
+    border-radius: 50%;
+    background-color: brown;
+    color: lightgreen;
+  }
+}
